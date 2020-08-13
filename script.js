@@ -20,15 +20,18 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
   // Part 1
   function shortenPageTitle() {
-
+    const mainTitle = document.getElementById('main-title')
+    console.log('this is the mainTitle')
+    mainTitle.innerText =''
   }
 
 
   // Part 2
   function changeBodyBgColor() {
-
+    var mainBody = document.querySelector('body')
+    mainBody.style.backgroundColor = '#2F4F4F';
   }
-
+ 
 
   // Part 3
   function removeLastFavoriteThing() {
